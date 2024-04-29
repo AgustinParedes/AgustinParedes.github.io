@@ -11,7 +11,7 @@ html{
 
 .container{
     height: 100vh;
-    background-color: #05aa08;
+    background-color: #ff7700;
 }
 
 nav{
@@ -40,21 +40,43 @@ ul li:hover{
 
 header{
     height: 90%;
-    border: solid thin red;
+    border: solid thin rgb(172, 151, 151);
+    display: flex;
+    align-items: center;
 }
 
+.head{
+    width: 50%;
+    margin-left: 50px;
+}
+
+header h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.head p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 7rem;
+    font-weight: 500;
+}
 .imagenes .yo{
     position: absolute;
-    height: 600px;
-    width: 550px;
+    height: 400px;
+    width: 350px;
     bottom: 0;
     right: 5%;
 }
 
 .imagenes .logo{
     position: absolute;
-    width: 550%;
-    height: 550%;
+    width: 40%;
+    height: 65%;
     left: 58%;
-}
+    bottom: 0;
 }
