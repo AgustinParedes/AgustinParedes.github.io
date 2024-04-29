@@ -78,7 +78,7 @@ button i{
     display: flex;
     justify-content: space-between;
     width: 170px;
-    transition: all 1s;
+    transition: all 0s;
 }
 
 .head p{
