@@ -38,3 +38,23 @@ ul li:hover{
     color: #fff;
 }
 
+header{
+    height: 90%;
+    border: solid thin red;
+}
+
+.imagenes .yo{
+    position: absolute;
+    height: 600px;
+    width: 550px;
+    bottom: 0;
+    right: 5%;
+}
+
+.imagenes .logo{
+    position: absolute;
+    width: 550%;
+    height: 550%;
+    left: 58%;
+}
+}
