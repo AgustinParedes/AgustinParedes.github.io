@@ -11,7 +11,7 @@ html{
 
 .container{
     height: 100vh;
-    background-color: #ff7700;
+    background-color: #a39a93;
 }
 
 nav{
@@ -53,6 +53,32 @@ header{
 header h2{
     font-size: 4rem;
     font-weight: 400;
+}
+                                    
+.head button{                                       
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    width: 160px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #ff4321;
+    border-radius: 25px;
+}
+
+button i{                               
+    font-size: 4rem;
+}
+
+.head button:hover{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    transition: all 1s;
 }
 
 .head p{
