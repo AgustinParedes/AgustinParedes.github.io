@@ -11,7 +11,7 @@ html{
 
 .container{
     height: 100vh;
-    background-color: #a39a93;
+    background-color: #e8b80a;
 }
 
 nav{
@@ -90,7 +90,7 @@ button i{
 h1{
     font-size: 5rem;
     font-weight: 500;
-    background-color: chocolate;
+    background-color: rgb(240, 154, 93);
 }
 .imagenes .yo{
     position: absolute;
